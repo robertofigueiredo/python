@@ -6,9 +6,6 @@ while True:
     num_2 = int(input('Digite outro numero: '))
     operador = input('Digite um operador: ')
 
-  #  if not num_1.isnumeric() or not num_2.isnumeric():
-   #     print ('voce precisa digitar um numero')
-
     if operador == '+':
         print (num_1 + num_2)
     
