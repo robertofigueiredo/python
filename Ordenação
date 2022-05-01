@@ -31,7 +31,7 @@ def selection_sort(l): # ordena toda sua lista
         m = seleciona (l,i)
         teste (l,m,i-1)
 
-def preenche (): 
+def preenche (): # adiciona um número no final da lista
     l = []
     for i in range (5):
         l.append(int(input("Valor;")))
